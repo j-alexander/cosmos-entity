@@ -1,4 +1,4 @@
-module CosmosEntity.Tests
+module CosmosEntity.Tests.Operations
 
 open NUnit.Framework
 
@@ -8,4 +8,5 @@ let Setup () =
 
 [<Test>]
 let Test1 () =
+    let x = CosmosEntity.Tests.Secrets.cosmosDB
     Assert.Pass()

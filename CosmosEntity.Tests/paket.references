@@ -3,3 +3,4 @@ NUnit
 NUnit3TestAdapter
 Microsoft.NET.Test.Sdk
 coverlet.collector
+Microsoft.Extensions.Configuration.UserSecrets

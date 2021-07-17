@@ -1,12 +1,18 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿
 <Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFramework>net5.0</TargetFramework>
     <IsPackable>false</IsPackable>
+    <UserSecretsId>4a903f18-4887-430c-8b1d-01bcdff11a80</UserSecretsId>
   </PropertyGroup>
   <ItemGroup>
+    <DotNetCliToolReference Include="Microsoft.Extensions.SecretManager.Tools" />
+  </ItemGroup>
+  <ItemGroup>
     <Content Include="paket.references" />
-    <Compile Include="UnitTest.fs" />
+    <Compile Include="AssemblyInfo.fs" />
+    <Compile Include="Secrets.fs" />
+    <Compile Include="Operations.fs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\CosmosEntity\CosmosEntity.fsproj" />
