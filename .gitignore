@@ -1,0 +1,17 @@
+*.suo
+*.userprefs
+**/bin/
+**/obj/
+**/packages/
+**/.vs/
+**/paket-files/
+**/.DS_Store
+**/win-x64/
+**/netcoreapp2.1/
+**/netcoreapp3.1/
+**/net50/
+
+.vscode/
+.idea/
+.paket/paket.exe
+.paket

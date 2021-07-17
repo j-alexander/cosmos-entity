@@ -1,0 +1,5 @@
+FSharp.Core
+NUnit
+NUnit3TestAdapter
+Microsoft.NET.Test.Sdk
+coverlet.collector
